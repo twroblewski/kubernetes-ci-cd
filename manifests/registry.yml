@@ -102,3 +102,5 @@ spec:
       - name: registry-persistent-storage
         persistentVolumeClaim:
           claimName: registry-claim
+
+
