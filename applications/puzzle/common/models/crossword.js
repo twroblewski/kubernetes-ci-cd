@@ -34,6 +34,7 @@ module.exports = function(Crossword) {
     }
   }
 
+
   Crossword.put = function(words, cb) {
     if(words) {
       etcd.delSync("puzzle");
